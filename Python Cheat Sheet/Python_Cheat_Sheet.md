@@ -5,7 +5,11 @@
 
 ## Take User Input
 
+> print('Enter your name:')
+> x = input()  # name: mo salah
+> print('Hello, ' + x)
 
+Hello, Mo Salah
 
 -------------------------------------------------------------------------------------------------------------------------------
 # Python 3
