@@ -30,7 +30,7 @@ Hello Hi
 ['How', 'are', 'you?']
 
 
-> a = "-".join(a)
+> a = "-".join(a) <br>
 > print(a)
 
 How-are-you?
