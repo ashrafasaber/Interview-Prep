@@ -15,6 +15,11 @@
 
 ## Take User Input
 
+> Name = input("what is your name?") # input: mo salah <br>
+> print(Name)
+
+Mo Salah
+
 ## Strip
 
 >str = "Hello Hi ***" <br>
