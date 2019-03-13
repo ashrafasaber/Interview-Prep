@@ -22,9 +22,9 @@
 
 Hello Hi
 
-> a = "this is a string" <br>
+> a = "How are you?" <br>
 > print(a) <br>
 > a = a.split(" ")  <br>
 > print(a) <br>
 
-['this', 'is', 'a', 'string']
+['How', 'are', 'you?']
