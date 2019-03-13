@@ -11,6 +11,12 @@
 
 Hello, Mo Salah
 
+
+> Name = raw_input("what is your name? ") # input: Mo Salah <br>
+> print(Name)
+
+Mo Salah
+
 -------------------------------------------------------------------------------------------------------------------------------
 # Python 3
 
