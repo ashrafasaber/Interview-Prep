@@ -21,8 +21,9 @@
 > print(str.strip(" * ")) <br>
 Hello Hi
 
-> a = "this is a string"
-> print(a)
-> a = a.split(" ") 
-> print(a)
+> a = "this is a string" <br>
+> print(a) <br>
+> a = a.split(" ")  <br>
+> print(a) <br>
+
 ['this', 'is', 'a', 'string']
