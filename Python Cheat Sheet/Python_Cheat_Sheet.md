@@ -6,7 +6,7 @@
 ## Take User Input
 
 > print('Enter your name:') <br>
-> x = input()  # name: mo salah <br>
+> x = input()  # name: Mo Salah <br>
 > print('Hello, ' + x)  <br>
 
 Hello, Mo Salah
@@ -19,7 +19,7 @@ Hello, Mo Salah
 
 ## Take User Input
 
-> Name = input("what is your name? ") # input: mo salah <br>
+> Name = input("what is your name? ") # input: Mo Salah <br>
 > print(Name)
 
 Mo Salah
