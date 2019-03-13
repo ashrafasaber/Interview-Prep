@@ -5,11 +5,7 @@
 
 ## Take User Input
 
-## Strip
 
->str = "Hello Hi ***" <br>
-> print(str.strip(" * ")) <br>
-Hello Hi
 
 -------------------------------------------------------------------------------------------------------------------------------
 # Python 3
@@ -17,6 +13,10 @@ Hello Hi
 ## Print to Screen
 > print("Hello, World!")
 
-
-
 ## Take User Input
+
+## Strip
+
+>str = "Hello Hi ***" <br>
+> print(str.strip(" * ")) <br>
+Hello Hi
