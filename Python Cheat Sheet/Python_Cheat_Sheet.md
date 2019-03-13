@@ -19,12 +19,12 @@ Hello, Mo Salah
 
 Mo Salah
 
-> print "Enter a Sentence: "
-> print raw_input().replace(" ","-")
+> print "Enter a Sentence: " <br>
+> print raw_input().replace(" ","-") <br>
 
-Enter a Sentence:
-aa aa aa aa aa
-aa-aa-aa-aa-aa
+Enter a Sentence: <br>
+aa aa aa aa aa   <br>
+aa-aa-aa-aa-aa   <br>
 
 -------------------------------------------------------------------------------------------------------------------------------
 # Python 3
