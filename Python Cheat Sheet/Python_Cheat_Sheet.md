@@ -5,9 +5,9 @@
 
 ## Take User Input
 
-> print('Enter your name:')
-> x = input()  # name: mo salah
-> print('Hello, ' + x)
+> print('Enter your name:') <br>
+> x = input()  # name: mo salah <br>
+> print('Hello, ' + x)  <br>
 
 Hello, Mo Salah
 
