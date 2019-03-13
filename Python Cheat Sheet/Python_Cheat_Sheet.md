@@ -28,3 +28,9 @@ Hello Hi
 > print(a) <br>
 
 ['How', 'are', 'you?']
+
+
+> a = "-".join(a)
+> print(a)
+
+How-are-you?
