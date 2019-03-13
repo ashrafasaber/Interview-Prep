@@ -1,7 +1,7 @@
 # Python 2
 
 ## Print to Screen
-print "Hello, World!"
+> print "Hello, World!"
 
 ## Take User Input
 
@@ -9,7 +9,7 @@ print "Hello, World!"
 # Python 3
 
 ## Print to Screen
-print("Hello, World!")
+> print("Hello, World!")
 
 
 
