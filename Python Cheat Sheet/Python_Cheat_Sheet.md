@@ -3,6 +3,8 @@
 ## Print to Screen
 > print "Hello, World!"
 
+Hello, World!
+
 ## Take User Input
 
 > print('Enter your name:') <br>
@@ -22,6 +24,8 @@ Mo Salah
 
 ## Print to Screen
 > print("Hello, World!")
+
+Hello, World!
 
 ## Take User Input
 
