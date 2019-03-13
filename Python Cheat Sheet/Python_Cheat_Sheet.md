@@ -19,6 +19,7 @@
 
 >str = "Hello Hi ***" <br>
 > print(str.strip(" * ")) <br>
+
 Hello Hi
 
 > a = "this is a string" <br>
