@@ -26,6 +26,21 @@ Enter a Sentence: <br>
 aa aa aa aa aa   <br>
 aa-aa-aa-aa-aa   <br>
 
+
+## Capitalize each Word in a String
+
+> import string
+>
+> def solve(s):
+>    words = s.split(" ")
+>    for i in xrange(len(words)):
+>      words[i] = string.capitalize(words[i])
+>    
+>    print " ".join(words)
+>
+> solve("hello world")
+
+
 -------------------------------------------------------------------------------------------------------------------------------
 # Python 3
 
