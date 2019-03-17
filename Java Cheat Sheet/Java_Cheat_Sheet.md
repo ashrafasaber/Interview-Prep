@@ -16,7 +16,29 @@
 
 ## While
 
+while (condition) { <br>v
+  // code block to be executed <br>
+} <br>
+
+int i = 0; <br>
+while (i < 5) {  <br>
+  System.out.println(i); <br>
+  i++; <br>
+}<br>
+
 ## Do-While
+
+do {   <br>
+  // code block to be executed <br>
+} <br>
+while (condition); <br>
+
+int i = 0; <br>
+do {<br>
+  System.out.println(i);<br>
+  i++;<br>
+}<br>
+while (i < 5);<br>
 
 ## For
 
