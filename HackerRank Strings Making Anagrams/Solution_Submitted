@@ -1,85 +1,84 @@
-import java.io.*; <br>
-import java.math.*; <br>
-import java.security.*; <br>
-import java.text.*; <br>
-import java.util.*; <br>
-import java.util.concurrent.*; <br>
-import java.util.regex.*; <br>
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
 
-import java.util.ArrayList; <br>
-import java.util.HashMap; <br>
-import java.util.Map; <br>
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
-public class Solution { <br>
+public class Solution {
 
-        public static Map<String, Integer> myStri(String a)    { <br>
+        public static Map<String, Integer> myStri(String a)    {
 
-        Map<String, Integer>  map= new HashMap<>(); <br>
+        Map<String, Integer>  map= new HashMap<>();
 
-        for(int i=0;i<a.length();i++) <br>
-        { <br>
-            if(map.containsKey(String.valueOf(a.charAt(i))))  <br>
-            { <br>
-                int val = map.get(String.valueOf(a.charAt(i))); <br>
-                val+=1; <br>
-                map.put(String.valueOf(a.charAt(i)), val); <br>
-            } <br>
-            else { <br>
-                map.put(String.valueOf(a.charAt(i)),1);     <br>
-            } <br>
-        } <br>
-        return map; <br>
-    } <br>
+        for(int i=0;i<a.length();i++)
+        {
+            if(map.containsKey(String.valueOf(a.charAt(i)))) 
+            {
+                int val = map.get(String.valueOf(a.charAt(i)));
+                val+=1;
+                map.put(String.valueOf(a.charAt(i)), val);
+            }
+            else {
+                map.put(String.valueOf(a.charAt(i)),1);     
+            }
+        }
+        return map;
+    }
 
 
-    static int makeAnagram(String a, String b) { <br>
-        int deletions = 0; <br>
+    static int makeAnagram(String a, String b) {
+        int deletions = 0;
 
-        Map<String, Integer>  map1= new HashMap<>(); <br>
-        Map<String, Integer>  map2= new HashMap<>(); <br>
+        Map<String, Integer>  map1= new HashMap<>();
+        Map<String, Integer>  map2= new HashMap<>();
 
-        map1 = myStri(a); <br>
-        map2 = myStri(b); <br>
+        map1 = myStri(a);
+        map2 = myStri(b);
 
-        for(String x:map1.keySet()) <br>
-        { <br>
-            if(map2.containsKey(x)) <br>
-            { <br>
-                deletions += Math.abs(map2.get(x)-map1.get(x)); <br>
+        for(String x:map1.keySet())
+        {
+            if(map2.containsKey(x))
+            {
+                deletions += Math.abs(map2.get(x)-map1.get(x));
 
-            } else { <br>
-                deletions += map1.get(x); <br>
-            } <br>
-        } <br>
+            } else {
+                deletions += map1.get(x);
+            }
+        }
 
-        for(String x:map2.keySet()) <br>
-        { <br>
-            if(!map1.containsKey(x)) <br>
-            { <br>
-                deletions += map2.get(x); <br>
-            } <br>
-        } <br>
+        for(String x:map2.keySet())
+        {
+            if(!map1.containsKey(x))
+            {
+                deletions += map2.get(x);
+            }
+        }
 
-        return deletions; <br>
-    } <br>
-    private static final Scanner scanner = new Scanner(System.in); <br>
+        return deletions;
+    }
+    private static final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) throws IOException { <br>
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH"))); <br>
+    public static void main(String[] args) throws IOException {
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
-        String a = scanner.nextLine(); <br>
+        String a = scanner.nextLine();
 
-        String b = scanner.nextLine(); <br>
+        String b = scanner.nextLine();
 
-        int res = makeAnagram(a, b); <br>
+        int res = makeAnagram(a, b);
 
-        bufferedWriter.write(String.valueOf(res)); <br>
-        bufferedWriter.newLine(); <br>
+        bufferedWriter.write(String.valueOf(res));
+        bufferedWriter.newLine();
 
-        bufferedWriter.close(); <br>
+        bufferedWriter.close();
 
-        scanner.close(); <br>
-    } <br>
-}  <br>
+        scanner.close();
+    }
+}
 
- 
