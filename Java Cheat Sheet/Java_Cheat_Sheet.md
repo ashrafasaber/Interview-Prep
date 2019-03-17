@@ -85,9 +85,9 @@ snippet from OCA book
 > string substring(int beginIndex) <br>
 > string substring(int beginIndex, int endIndex) <br>
 
-String string = "animals";
-a  n  i  m  a  l  s
-0  1  2  3  4  5  6
+String string = "animals";<br>
+a  n  i  m  a  l  s<br>
+0  1  2  3  4  5  6<br>
 
 > System.out.println(a.substring(3));			 // mals <br>
 > System.out.println(a.substring(string.indexOf('m')));	 // mals <br>
