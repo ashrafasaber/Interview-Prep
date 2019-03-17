@@ -79,7 +79,18 @@ do {<br>
 while (i < 5);<br>
 
 ## For
+for (int i = 0; i < 5; i++) {  <br>
+  System.out.println(i); <br>
+} <br>
 
+for (type variable : arrayname) { <br>
+  // code block to be executed <br>
+} <br>
+
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"}; <br>
+for (String i : cars) { <br>
+  System.out.println(i); <br>
+} <br>
 ## Constructors
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
