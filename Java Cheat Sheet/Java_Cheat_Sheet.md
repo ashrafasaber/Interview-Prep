@@ -45,97 +45,96 @@ Refers to an object
 ------------------------------------------------------------------------------------------
 ## String
 
-String reference = "Good Morning";
-int len = reference.length();  // calling method on reference
+> String reference = "Good Morning"; <br>
+> int len = reference.length();  // calling method on reference <br>
 
 
-String name = "Fluffy";
-String name = new String("Fluffy");
+> String name = "Fluffy"; <br>
+> String name = new String("Fluffy"); <br>
 ------------------------------------------------------------------------------------------
 ### length()
 
-String a = "abcdefghijklmnopqrstuvwxys"
-System.out.println(a.length());
+> String a = "abcdefghijklmnopqrstuvwxys" <br>
+> System.out.println(a.length()); <br>
 ------------------------------------------------------------------------------------------
 
 ### charAt()
-String a = "abcdefghijklmnopqrstuvwxys"
-System.out.println(a.charAt(0));
-System.out.println(a.charAt(1));
-System.out.println(a.charAt(2));
+>String a = "abcdefghijklmnopqrstuvwxys"  <br>
+>System.out.println(a.charAt(0));<br>
+>System.out.println(a.charAt(1));<br>
+>System.out.println(a.charAt(2));<br>
 ------------------------------------------------------------------------------------------
 
 ### indexOf()
 snippet from OCA book
 
-int indexOd(int ch)
-int indexOf(char ch, int fromIndex)
-int indexOf(String str)
-int indexOf(String str, index fromIndex)
+>int indexOd(int ch) <br>
+>int indexOf(char ch, int fromIndex) <br>
+>int indexOf(String str) <br>
+>int indexOf(String str, index fromIndex) <br>
 
 
-String string = "animals";
-System.out.println(a.indexOf('a'));		// 0
-System.out.println(a.indexOf('al'));		// 4
-System.out.println(a.indexOf('a',4));		// 4
-System.out.println(a.indexOf('al',5));		// -1  if -1 this means no match found
+> String string = "animals"; <br>
+> System.out.println(a.indexOf('a'));		// 0  <br>
+> System.out.println(a.indexOf('al'));		// 4 <br>
+> System.out.println(a.indexOf('a',4));		// 4 <br>
+> System.out.println(a.indexOf('al',5));		// -1  if -1 this means no match found <br>
 
 ------------------------------------------------------------------------------------------
 ### substring()
-string substring(int beginIndex)
-string substring(int beginIndex, int endIndex)
+> string substring(int beginIndex) <br>
+> string substring(int beginIndex, int endIndex) <br>
 
 String string = "animals";
 a  n  i  m  a  l  s
 0  1  2  3  4  5  6
 
-System.out.println(a.substring(3));			 // mals
-System.out.println(a.substring(string.indexOf('m')));	 // mals
-System.out.println(a.substring(3, 4));			 // m
-System.out.println(a.substring(3, 7));			 // mals
+> System.out.println(a.substring(3));			 // mals <br>
+> System.out.println(a.substring(string.indexOf('m')));	 // mals <br>
+> System.out.println(a.substring(3, 4));			 // m <br>
+> System.out.println(a.substring(3, 7));			 // mals <br>
 
-System.out.println(a.substring(3, 3));			 // empty string
-System.out.println(a.substring(3, 2));			 // throws exception
-System.out.println(a.substring(3, 8));			 // throws exception
+> System.out.println(a.substring(3, 3));			 // empty string <br>
+> System.out.println(a.substring(3, 2));			 // throws exception <br>
+> System.out.println(a.substring(3, 8));			 // throws exception <br>
 
 ------------------------------------------------------------------------------------------
 ### toLowerCase() and toUpperCase()
                                
-String toLowerCase()
-String toUpperCase()
+> String toLowerCase() <br>
+> String toUpperCase() <br>
 
-String string = "animals";
-System.out.println(string.toUpperCase());       // ANIMALS
-System.out.println("Abc123".toLowerCase());     // abc123
+> String string = "animals"; <br>
+> System.out.println(string.toUpperCase());       // ANIMALS <br>
+> System.out.println("Abc123".toLowerCase());     // abc123 <br>
 ------------------------------------------------------------------------------------------
 ### equals() and equalsIgnoreCase()
 
-boolean equals(Object obj)
-boolean equalsIgnoreCase(String str)
+> boolean equals(Object obj) <br>
+> boolean equalsIgnoreCase(String str) <br>
 
-System.out.println("abc".equals("ABC"));	     //  false	
-System.out.println("ABC".equals("ABC"));	     //  true
-System.out.println("abc".equalsIgnoreCase("ABC"));   //  true
+> System.out.println("abc".equals("ABC"));	     //  false	<br>
+> System.out.println("ABC".equals("ABC"));	     //  true <br>
+> System.out.println("abc".equalsIgnoreCase("ABC"));   //  true <br>
 
 ------------------------------------------------------------------------------------------
 ### startsWith() and endsWith()
 
-boolean startsWith(String prefix)
-boolean endsWith(String suffix)
+> boolean startsWith(String prefix) <br>
+> boolean endsWith(String suffix) <br>
 
-System.out.println("abc".startsWith("a"));	//  true
-System.out.println("abc".startsWith("A"));	//  false
-System.out.println("abc".endsWith("c"));	//  true
-System.out.println("abc".endsWith("a"));	//  false
+> System.out.println("abc".startsWith("a"));	//  true <br>
+> System.out.println("abc".startsWith("A"));	//  false <br>
+> System.out.println("abc".endsWith("c"));	//  true <br>
+> System.out.println("abc".endsWith("a"));	//  false <br>
 
 ------------------------------------------------------------------------------------------
 ### contains()
 
+> boolean contains(String str) <br>
 
-boolean contains(String str)
-
-System.out.println("abc".contains("b")); // true
-System.out.println("abc".contains("B")); // false
+> System.out.println("abc".contains("b")); // true <br>
+> System.out.println("abc".contains("B")); // false <br>
 ------------------------------------------------------------------------------------------
 ### replace()
 
@@ -174,7 +173,7 @@ System.out.println("abc".contains("B")); // false
 ------------------------------------------------------------------------------------------
 ## 
 
-Student ashraf = new Student();
+> Student ashraf = new Student();
 
 ------------------------------------------------------------------------------------------
 ##
