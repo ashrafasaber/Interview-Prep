@@ -26,71 +26,71 @@
 
 
 
-int day = 4; <br>
-switch (day) { <br>
-  case 1: <br>
-    System.out.println("Monday"); <br>
-    break; <br>
-  case 2: <br>
-    System.out.println("Tuesday"); <br>
-    break; <br>
-  case 3: <br>
-    System.out.println("Wednesday"); <br>
-    break; <br>
-  case 4: <br>
-    System.out.println("Thursday"); <br>
-    break; <br>
-  case 5: <br>
-    System.out.println("Friday"); <br>
-    break; <br>
-  case 6: <br>
-    System.out.println("Saturday"); <br>
-    break; <br>
-  case 7: <br>
-    System.out.println("Sunday"); <br>
-    break; <br>
-} <br>
-// Outputs "Thursday" (day 4) <br>
+> int day = 4; <br>
+> switch (day) { <br>
+>  case 1: <br>
+>    System.out.println("Monday"); <br>
+>    break; <br>
+>  case 2: <br>
+>    System.out.println("Tuesday"); <br>
+>    break; <br>
+>  case 3: <br>
+>    System.out.println("Wednesday"); <br>
+>    break; <br>
+>  case 4: <br>
+>    System.out.println("Thursday"); <br>
+>    break; <br>
+>  case 5: <br>
+>    System.out.println("Friday"); <br>
+>    break; <br>
+>  case 6: <br>
+>    System.out.println("Saturday"); <br>
+>    break; <br>
+>  case 7: <br>
+>    System.out.println("Sunday"); <br>
+>    break; <br>
+> } <br>
+> // Outputs "Thursday" (day 4) <br>
 
 ## While
 
-while (condition) { <br>
-  // code block to be executed <br>
-} <br>
+> while (condition) { <br>
+>  // code block to be executed <br>
+> } <br>
 
-int i = 0; <br>
-while (i < 5) {  <br>
-  System.out.println(i); <br>
-  i++; <br>
-}<br>
+> int i = 0; <br>
+> while (i < 5) {  <br>
+>  System.out.println(i); <br>
+>  i++; <br>
+> }<br>
 
 ## Do-While
 
-do {   <br>
-  // code block to be executed <br>
-} <br>
-while (condition); <br>
+> do {   <br>
+>   // code block to be executed <br>
+> } <br>
+> while (condition); <br>
 
-int i = 0; <br>
-do {<br>
-  System.out.println(i);<br>
-  i++;<br>
-}<br>
-while (i < 5);<br>
+> int i = 0; <br>
+> do {<br>
+>  System.out.println(i);<br>
+>  i++;<br>
+> } <br>
+> while (i < 5);<br>
 
 ## For
-for (int i = 0; i < 5; i++) {  <br>
-  System.out.println(i); <br>
-} <br>
+> for (int i = 0; i < 5; i++) {  <br>
+>  System.out.println(i); <br>
+> } <br>
 
-for (type variable : arrayname) { <br>
-  // code block to be executed <br>
-} <br>
+> for (type variable : arrayname) { <br>
+>  // code block to be executed <br>
+> } <br>
 
-String[] cars = {"Volvo", "BMW", "Ford", "Mazda"}; <br>
-for (String i : cars) { <br>
-  System.out.println(i); <br>
-} <br>
+> String[] cars = {"Volvo", "BMW", "Ford", "Mazda"}; <br>
+> for (String i : cars) { <br>
+>  System.out.println(i); <br>
+> } <br>
 ## Constructors
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
