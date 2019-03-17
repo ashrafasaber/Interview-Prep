@@ -13,16 +13,16 @@
 ## if-then
  
 ## Switch
-switch(expression) { <br>
-  case x: <br>
-    // code block <br>
-    break; <br>
-  case y: <br>
-    // code block <br>
-    break; <br>
-  default: <br>
-    // code block <br>
-} <br>
+> switch(expression) { <br>
+>  case x: <br>
+>    // code block <br>
+>    break; <br>
+>  case y: <br>
+>    // code block <br>
+>    break; <br>
+>  default: <br>
+>    // code block <br>
+> } <br>
 
 
 
