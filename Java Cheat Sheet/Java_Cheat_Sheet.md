@@ -25,14 +25,14 @@
 ------------------------------------------------------------------------------------------
 ## Primitives
 
-1-boolean
-2-byte
-3-short
-4-int
-5-long
-6-float
-7-double
-8-char
+1-boolean  <br>
+2-byte <br>
+3-short <br>
+4-int <br>
+5-long <br>
+6-float <br>
+7-double <br>
+8-char v
 
 Primitive types hold their values in memory
 You can call methods on references but not primitives
