@@ -13,10 +13,48 @@
 ## if-then
  
 ## Switch
+switch(expression) { <br>
+  case x: <br>
+    // code block <br>
+    break; <br>
+  case y: <br>
+    // code block <br>
+    break; <br>
+  default: <br>
+    // code block <br>
+} <br>
+
+
+
+int day = 4; <br>
+switch (day) { <br>
+  case 1: <br>
+    System.out.println("Monday"); <br>
+    break; <br>
+  case 2: <br>
+    System.out.println("Tuesday"); <br>
+    break; <br>
+  case 3: <br>
+    System.out.println("Wednesday"); <br>
+    break; <br>
+  case 4: <br>
+    System.out.println("Thursday"); <br>
+    break; <br>
+  case 5: <br>
+    System.out.println("Friday"); <br>
+    break; <br>
+  case 6: <br>
+    System.out.println("Saturday"); <br>
+    break; <br>
+  case 7: <br>
+    System.out.println("Sunday"); <br>
+    break; <br>
+} <br>
+// Outputs "Thursday" (day 4) <br>
 
 ## While
 
-while (condition) { <br>v
+while (condition) { <br>
   // code block to be executed <br>
 } <br>
 
