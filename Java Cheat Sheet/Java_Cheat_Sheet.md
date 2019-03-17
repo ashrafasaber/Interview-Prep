@@ -32,7 +32,7 @@
 5-long <br>
 6-float <br>
 7-double <br>
-8-char v
+8-char <br>
 
 Primitive types hold their values in memory
 You can call methods on references but not primitives
