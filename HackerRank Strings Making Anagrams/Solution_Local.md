@@ -1,90 +1,90 @@
-package main; <br>
+package main;
 
-import java.util.ArrayList; <br>
-import java.util.HashMap; <br>
-import java.util.Map; <br>
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
-public class String_Making_Anagrams { <br>
-
-
-	public static Map<String, Integer> myStri(String a)    { <br>
-
-		Map<String, Integer>  map= new HashMap<>(); <br>
-
-		for(int i=0;i<a.length();i++) <br>
-		{ <br>
-			if(map.containsKey(String.valueOf(a.charAt(i))))  <br>
-			{ <br>
-				int val = map.get(String.valueOf(a.charAt(i))); <br>
-				val+=1; <br>
-				map.put(String.valueOf(a.charAt(i)), val); <br>
-			} <br>
-			else { <br>
-				map.put(String.valueOf(a.charAt(i)),1); 	<br>
-			} <br>
-		} <br>
-		return map; <br>
-	} <br>
+public class String_Making_Anagrams {
 
 
-	static int makeAnagram(String a, String b) { <br>
-		int deletions = 0; <br>
+	public static Map<String, Integer> myStri(String a)    {
 
-		Map<String, Integer>  map1= new HashMap<>(); <br>
-		Map<String, Integer>  map2= new HashMap<>(); <br>
+		Map<String, Integer>  map= new HashMap<>();
 
-		map1 = myStri(a); <br>
-		map2 = myStri(b); <br>
+		for(int i=0;i<a.length();i++)
+		{
+			if(map.containsKey(String.valueOf(a.charAt(i)))) 
+			{
+				int val = map.get(String.valueOf(a.charAt(i)));
+				val+=1;
+				map.put(String.valueOf(a.charAt(i)), val);
+			}
+			else {
+				map.put(String.valueOf(a.charAt(i)),1); 	
+			}
+		}
+		return map;
+	}
 
-		for(String x:map1.keySet()) <br>
-		{ <br>
-			if(map2.containsKey(x)) <br>
-			{ <br>
-				deletions += Math.abs(map2.get(x)-map1.get(x)); <br>
 
-			} else { <br>
-				deletions += map1.get(x); <br>
-			} <br>
-		} <br>
+	static int makeAnagram(String a, String b) {
+		int deletions = 0;
 
-		for(String x:map2.keySet()) <br>
-		{ <br>
-			if(!map1.containsKey(x)) <br>
-			{ <br>
-				deletions += map2.get(x); <br>
-			} <br>
-		} <br>
+		Map<String, Integer>  map1= new HashMap<>();
+		Map<String, Integer>  map2= new HashMap<>();
 
-		return deletions; <br>
-	} <br>
+		map1 = myStri(a);
+		map2 = myStri(b);
 
-	public static void main(String[] args) { <br>
-		String a = "abcd"; <br>
-		String b = "abcdaae"; <br>
-		Map<String, Integer>  map1= new HashMap<>(); <br>
-		Map<String, Integer>  map2= new HashMap<>(); <br>
+		for(String x:map1.keySet())
+		{
+			if(map2.containsKey(x))
+			{
+				deletions += Math.abs(map2.get(x)-map1.get(x));
 
-		map1 = myStri(a); <br>
-		map2 = myStri(b); <br>
+			} else {
+				deletions += map1.get(x);
+			}
+		}
 
-		System.out.println(map1); <br>
-		System.out.println(map2); <br>
+		for(String x:map2.keySet())
+		{
+			if(!map1.containsKey(x))
+			{
+				deletions += map2.get(x);
+			}
+		}
+
+		return deletions;
+	}
+
+	public static void main(String[] args) {
+		String a = "abcd";
+		String b = "abcdaae";
+		Map<String, Integer>  map1= new HashMap<>();
+		Map<String, Integer>  map2= new HashMap<>();
+
+		map1 = myStri(a);
+		map2 = myStri(b);
+
+		System.out.println(map1);
+		System.out.println(map2);
 		
-		int del = 0; <br>
-		del= makeAnagram(a,b); <br>
-		System.out.println(del); <br>
-	} <br>
+		int del = 0;
+		del= makeAnagram(a,b);
+		System.out.println(del);
+	}
 
-	//	public static ArrayList<String> myStr(String a)    { <br>
-	// <br>
-	//		ArrayList<String> stringlist = new ArrayList<>(); <br>
-	//<br>
-	//		for(int i=0;i<a.length();i++) <br>
-	//		{ <br>
-	//			stringlist.add(i,String.valueOf(a.charAt(i))); 	<br>
-	//		} <br>
-	//		return stringlist; <br>
-	//	} <br>
+	//	public static ArrayList<String> myStr(String a)    {
+	//
+	//		ArrayList<String> stringlist = new ArrayList<>();
+	//
+	//		for(int i=0;i<a.length();i++)
+	//		{
+	//			stringlist.add(i,String.valueOf(a.charAt(i))); 	
+	//		}
+	//		return stringlist;
+	//	}
 
 
-} <br>
+}
