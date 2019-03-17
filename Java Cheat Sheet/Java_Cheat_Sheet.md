@@ -138,11 +138,19 @@ a  n  i  m  a  l  s<br>
 ------------------------------------------------------------------------------------------
 ### replace()
 
+> String replace(char oldChar, char newChar); // AbcAbc <br>
+> String replace(CharSequence oldChar, CharSequence newChar) <br>
+
+> System.out.println("abcabc".replace('a', 'A'));  // AbcAbc <br>
+> System.out.println("abcabc".replace("a","A"));   // AbcAbc  <br>
 
 ------------------------------------------------------------------------------------------
 ### trim()
 
+> public String trim() <br>
 
+> System.out.println("abc".trim());  // abc <br>
+> System.out.println("\t a b c \n".trim());  // a b c  <br>
 ------------------------------------------------------------------------------------------
 ### Method Chaining
 
