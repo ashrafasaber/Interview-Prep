@@ -1,0 +1,50 @@
+package main;
+
+import java.util.ArrayList;
+
+public class String_Alternating_Characters {
+
+	public static ArrayList<String> myStr(String a)    {
+
+		ArrayList<String> stringlist = new ArrayList<>();
+
+		for(int i=0;i<a.length();i++)
+		{
+			stringlist.add(i,String.valueOf(a.charAt(i))); 	
+		}
+		return stringlist;
+	}
+
+	static int alternatingCharacters(String s) {
+		int deletions = 0;
+
+		ArrayList<String> l = myStr(s);
+		for(int i =0;i< l.size();i++)
+		{
+			if(i == l.size()-1) {}
+			else {
+				int j = i+1;
+				if(l.get(i).equals(l.get(j))) {
+					deletions +=1;
+				}}
+		}
+
+		return deletions;
+	}
+
+	public static void main(String[] args) {
+		String a = "abab";
+		String b = "aaaa";
+		String c = "aabab";
+
+		int ia = alternatingCharacters(a);
+		int ib = alternatingCharacters(b);
+		int ic = alternatingCharacters(c);
+
+		System.out.println(ia);
+		System.out.println(ib);
+		System.out.println(ic);
+
+	}
+
+}
