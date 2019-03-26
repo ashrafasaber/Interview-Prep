@@ -41,6 +41,13 @@ aa-aa-aa-aa-aa   <br>
 > solve("hello world")
 
 
+## Write List to File
+
+> list = [5,6,7,8,9,10]
+> with open('list_test.txt', 'w') as f:
+>    for item in list:
+>        f.write("%s\n" % item)
+
 -------------------------------------------------------------------------------------------------------------------------------
 # Python 3
 
