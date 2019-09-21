@@ -86,5 +86,26 @@ How-are-you?
 
 
 -----------
+<pre>
+SomeClass.py
+
+class SomeClass:
+    variable_1 = "This is a class variable"
+    variable_2 = 100    #this is also a class variable.
+
+    def __init__(self, param1, param2):
+        self.instance_var1 = param1
+        #instance_var1 is a instance variable
+      	self.instance_var2 = param2   
+        #instance_var2 is a instance variable
+       
+ main.py 
+ 
+  from SomeClass import SomeClass
+  obj1 = SomeClass("some thing", 18) 
+  print obj1.variable_1                    # prints This is a class variable
+  print obj1.instance_var1                 # prints some thing
+
 https://medium.com/quick-code/understanding-self-in-python-a3704319e5f0
 https://micropyramid.com/blog/understand-self-and-__init__-method-in-python-class/
+</pre>
