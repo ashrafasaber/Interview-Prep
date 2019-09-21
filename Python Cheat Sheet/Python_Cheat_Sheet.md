@@ -105,7 +105,17 @@ class SomeClass:
   obj1 = SomeClass("some thing", 18) 
   print obj1.variable_1                    # prints This is a class variable
   print obj1.instance_var1                 # prints some thing
-
+</pre>
 https://medium.com/quick-code/understanding-self-in-python-a3704319e5f0
 https://micropyramid.com/blog/understand-self-and-__init__-method-in-python-class/
-</pre>
+
+
+https://runestone.academy/runestone/books/published/pythonds/index.html
+
+https://www.coursera.org/learn/python-for-applied-data-science-ai?action=enroll
+https://www.coursera.org/lecture/interactive-python-2/object-oriented-programming-1-i3Wbh
+https://www.coursera.org/learn/interactive-python-2#syllabus
+https://www.coursera.org/learn/interactive-python-1
+
+https://stackoverflow.com/questions/4534438/typeerror-module-object-is-not-callable
+
