@@ -82,3 +82,9 @@ Hello Hi
 > print(a)
 
 How-are-you?
+
+
+
+-----------
+https://medium.com/quick-code/understanding-self-in-python-a3704319e5f0
+https://micropyramid.com/blog/understand-self-and-__init__-method-in-python-class/
